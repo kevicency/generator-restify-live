@@ -29,6 +29,8 @@ Unit Tests: `npm test` or `grunt test` (or `grunt test:unit`)
 
 System Tests: `grunt test:system`
 
+Continuous (unit) Testing: `grunt test watch`
+
 
 ## Yeoman
 
