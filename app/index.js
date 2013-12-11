@@ -41,7 +41,6 @@ RestifyLiveGenerator.prototype.app = function app() {
   this.mkdir('app/templates');
 
   this.copy('_package.json', 'package.json');
-  this.copy('_bower.json', 'bower.json');
 };
 
 RestifyLiveGenerator.prototype.projectfiles = function projectfiles() {
