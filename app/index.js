@@ -23,14 +23,12 @@ RestifyLiveGenerator.prototype.askFor = function askFor() {
   console.log(this.yeoman);
 
   var prompts = [{
-    type: 'confirm',
-    name: 'someOption',
-    message: 'Would you like to enable this option?',
-    default: true
+    name: 'projectName',
+    message: 'What is the name of your project?',
   }];
 
   this.prompt(prompts, function (props) {
-    this.someOption = props.someOption;
+    this.projectName = props.projectName;
 
     cb();
   }.bind(this));
