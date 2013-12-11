@@ -4,7 +4,7 @@ var path = require('path');
 var yeoman = require('yeoman-generator');
 
 
-var RestifyLiveGenerator = module.exports = function RestifyLiveGenerator(args, options, config) {
+var RestifyLiveGenerator = module.exports = function RestifyLiveGenerator(args, options) {
   yeoman.generators.Base.apply(this, arguments);
 
   this.on('end', function () {
@@ -38,9 +38,12 @@ RestifyLiveGenerator.prototype.askFor = function askFor() {
 
 RestifyLiveGenerator.prototype.app = function app() {
   this.mkdir('app');
-  this.mkdir('app/templates');
 
   this.copy('_package.json', 'package.json');
+  this.copy('_index.js', 'index.js');
+  this.copy('_Gruntfile.coffee', 'Gruntfile.coffee');
+  this.directory('lib', 'lib');
+  this.directory('test', 'test');
 };
 
 RestifyLiveGenerator.prototype.projectfiles = function projectfiles() {

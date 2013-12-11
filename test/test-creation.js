@@ -24,7 +24,16 @@ describe('restify-live generator', function () {
       // add files you expect to exist here.
       '.jshintrc',
       '.editorconfig',
-      'package.json'
+      'package.json',
+      'index.js',
+      'Gruntfile.coffee',
+      'lib/server.ls',
+      'lib/routes.ls',
+      'test/unit_helper.js',
+      'test/unit/server_spec.ls',
+      'test/unit/routes_spec.ls',
+      'test/system_helper.js',
+      'test/system/server_spec.ls'
     ];
 
     helpers.mockPrompt(this.app, {

@@ -1,5 +1,24 @@
 {
-  "name": "package",
+  "name": "<%= apiName  %>",
   "version": "0.0.0",
-  "dependencies": {}
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "restify": "~2.6.1",
+    "LiveScript": "~1.2.0"
+  },
+  "devDependencies": {
+    "grunt-simple-mocha": "~0.4.0",
+    "sinon-chai": "~2.4.0",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3",
+    "mocha": "~1.15.1",
+    "supertest": "~0.8.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "grunt test"
+  }
 }
