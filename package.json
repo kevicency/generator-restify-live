@@ -1,9 +1,11 @@
 {
   "name": "generator-restify-live",
-  "version": "0.0.0",
-  "description": "A generator for Yeoman",
+  "version": "0.1.0",
+  "description": "Yeoman generator for node-restify with LiveScript",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "restify",
+    "LiveScript"
   ],
   "homepage": "https://github.com/kmees/generator-restify-live",
   "bugs": "https://github.com/kmees/generator-restify-live/issues",
