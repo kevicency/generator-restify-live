@@ -1,9 +1,36 @@
 # generator-restify-live [![Build Status](https://secure.travis-ci.org/kmees/generator-restify-live.png?branch=master)](https://travis-ci.org/kmees/generator-restify-live)
+> [Yeoman](http://yeoman.io) generator for [node-restify](http://mcavage.me/node-restify/) with [LiveScript](http://gkz.github.io/LiveScript/).
 
-A generator for [Yeoman](http://yeoman.io).
+## Getting started
+
+If you don't know about [Yeoman](http://yeoman.io) read the yeoman section below !
+Already enlightened? These commands get you up and running!
+
+  * Create and move to a direcotry for the project
+
+    `mkdir my-api && cd my-api` 
+  *  Install this generator
+
+    `npm install generator-restify-live`
+  * Run the generator and follow the steps
+
+    `yo restify-live`
+
+## Running the server
+
+As simple as `node ./index.js`.
+
+You can also run the `./index.js` directly but this requires [nodemon](https://github.com/remy/nodemon).
 
 
-## Getting Started
+## Running the tests
+
+Unit Tests: `npm test` or `grunt test` (or `grunt test:unit`)
+
+System Tests: `grunt test:system`
+
+
+## Yeoman
 
 ### What is Yeoman?
 
