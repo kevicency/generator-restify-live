@@ -18,7 +18,7 @@ Already enlightened? These commands get you up and running!
 
 ## Running the server
 
-As simple as `node start` or `node ./index.js`.
+As simple as `npm start` or `node ./index.js`.
 
 You can also run the `./index.js` directly but this requires [nodemon](https://github.com/remy/nodemon).
 
